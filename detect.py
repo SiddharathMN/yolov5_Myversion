@@ -168,6 +168,7 @@ def run(
     imgsz = check_img_size(imgsz, s=stride)  # check image size
     #MAKING CHANGES
     #MAKING MORE CHANGES
+    #I luv MINIONS
     # Dataloader
     bs = 1  # batch_size
     if webcam:
