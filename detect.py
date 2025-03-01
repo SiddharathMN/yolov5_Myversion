@@ -166,7 +166,8 @@ def run(
     model = DetectMultiBackend(weights, device=device, dnn=dnn, data=data, fp16=half)
     stride, names, pt = model.stride, model.names, model.pt
     imgsz = check_img_size(imgsz, s=stride)  # check image size
-
+    #MAKING CHANGES
+    #MAKING MORE CHANGES
     # Dataloader
     bs = 1  # batch_size
     if webcam:
